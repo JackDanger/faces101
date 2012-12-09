@@ -25,7 +25,7 @@ Primary concepts:
 * Markup mistakes are handled gracefully
 * There's a thing called 'jQuery' that makes things move
 
-<a href="monday/README.md">Full lesson</a>
+<a href="monday.html">Full lesson</a>
 
 ## Tuesday
 
@@ -37,7 +37,7 @@ Primary concepts:
 * Targeting events to different page elements
 * basic intro to DOM ids and classes
 
-<a href="tuesday/README.md">Full lesson</a>
+<a href="tuesday.html">Full lesson</a>
 
 
 ## Wednesday
@@ -51,7 +51,7 @@ Primary concepts:
 * Playing with targeting ids and classes with jQuery effects
 * Adding/removing styles from elements via jQuery triggers
 
-<a href="wednesday/README.md">Full lesson</a>
+<a href="wednesday.html">Full lesson</a>
 
 ## Thursday
 
@@ -63,7 +63,7 @@ Primary concepts:
 * loops
 * Constructing html via Javascript
 
-<a href="thursday/README.md">Full lesson</a>
+<a href="thursday.html">Full lesson</a>
 
 ## Friday
 
@@ -78,4 +78,4 @@ Primary concepts:
 * the loop we use
 * reloading the page when we've shown all faces
 
-<a href="friday/README.md">Full lesson</a>
+<a href="friday.html">Full lesson</a>
