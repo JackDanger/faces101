@@ -9,7 +9,8 @@ Open by asking folks how the class is going. Anything need changing?
 Restore yesterday's editing environment. Make sure they can edit a file
 and preview it in Chrome.
 
-Direct students to Javascript
+Direct students to download the html file here:
+
 
 
 ### 11:00 (switch instructors)

@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Exercise 1</title>
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="./1_jquery_demo_files/jquery.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="hero-unit">
+        <h1 id="title">jQuery lets you change a web page</h1>
+        <p>Try clicking all of the examples. Then look at the source to this page to discover why it works.</p>
+      </div>
+
+      <div class="row">
+        <div class="span4" id="first_square">
+          <h2>Fade out</h2>
+          <p>This whole section will fade out when you click anywhere on it. Refresh the page to get it back</p>
+          <pre>
+      $("#first_square").click(function(){
+        $(this).fadeOut();
+      })
+        </pre>
+        </div>
+        <div class="span4" id="second_square">
+          <h2>Fade in</h2>
+          <p>Something new will fade in when you click this.</p>
+          <img src="http://joblivious.files.wordpress.com/2009/03/fuzzy_kitten.jpg" style="display: none;" id="fuzzy_kitten" />
+          <pre>
+      $("#second_square").click(function(){
+        $("#fuzzy_kitten").fadeToggle();
+      })
+          </pre>
+       </div>
+       <div class="span4" id="third_square">
+          <h2>Slide around</h2>
+          <p id="it_slides_away">This will slide up or down when you click it. Refresh the page to get it back</p>
+          <img src="http://www.sparkyhub.com/wp-content/uploads/2012/04/30-cute-puppies-you-will-want-to-take-home-with-you-2.jpg" style="display: none;" id="cute_puppies" />
+          <pre>
+      $("#third_square").click(function(){
+        $("#cute_puppies").slideToggle();
+      })
+          </pre>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $("#first_square").click(function(){
+        console.log('clicked')
+        $(this).fadeOut();
+      })
+
+      $("#second_square").click(function(){
+        $("#fuzzy_kitten").fadeToggle();
+      })
+
+      $("#third_square").click(function(){
+        $("#cute_puppies").slideToggle();
+      })
+
+    </script>
+  </body>
+</html>
