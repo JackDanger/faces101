@@ -10,7 +10,9 @@ Restore yesterday's editing environment. Make sure they can edit a file
 and preview it in Chrome.
 
 Direct students to download the html file here:
+<pre>
 http://jackdanger.github.com/faces101/tuesday/1_jquery_demo.html
+</pre>
 
 
 ### 11:00 (switch instructors)
