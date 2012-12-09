@@ -11,7 +11,9 @@ and preview it in Chrome.
 
 Direct students to download the html file here:
 <pre>
-http://jackdanger.github.com/faces101/tuesday/1_jquery_demo.html
+<a
+href="http://jackdanger.github.com/faces101/tuesday/1_jquery_demo.html"
+>http://jackdanger.github.com/faces101/tuesday/1_jquery_demo.html</a>
 </pre>
 
 
