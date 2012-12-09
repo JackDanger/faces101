@@ -7,14 +7,14 @@ course.
 
 Each day is a 3-hour course divided in three sections:
 
-1st hour: instructor A leads teaching of half the material
-2nd hour: instructor B leads teaching for the last half
-3rd hour: exercises and hands-on tutoring
+* 1st hour: instructor A leads teaching of half the material
+* 2nd hour: instructor B leads teaching for the last half
+* 3rd hour: exercises and hands-on tutoring
 
 
 ## Monday
 
-b. Edit existing web pages and see what happens when changes are made to
+> Edit existing web pages and see what happens when changes are made to
 the source
 
 Primary concepts:
@@ -29,7 +29,7 @@ Primary concepts:
 
 ## Tuesday
 
-b. Playing with jQuery events and seeing things move across the page
+> Playing with jQuery events and seeing things move across the page
 
 Primary concepts:
 
@@ -42,7 +42,7 @@ Primary concepts:
 
 ## Wednesday
 
-b. The DOM: classes and ids and inline styles
+> The DOM: classes and ids and inline styles
 
 Primary concepts:
 
@@ -55,7 +55,7 @@ Primary concepts:
 
 ## Thursday
 
-b. Playing with data and turning a JSON feed into DOM elements
+> Playing with data and turning a JSON feed into DOM elements
 
 Primary concepts:
 
@@ -67,7 +67,7 @@ Primary concepts:
 
 ## Friday
 
-b. Building the Square Faces screensaver
+> Building the Square Faces screensaver
 
 Primary concepts:
 
@@ -77,3 +77,5 @@ Primary concepts:
 * the data we need (people.json)
 * the loop we use
 * reloading the page when we've shown all faces
+
+<a href="friday/README.md">Full lesson</a>
