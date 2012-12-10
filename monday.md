@@ -18,7 +18,7 @@ Give a basic overview of HTML:
 * talk about opening and closing tags
 * how tags affect all the tags inside them
 * how everything is basically a rectangle full of rectangles
-* Have the students write their own P,DIV,SPAN,STRONG,EM,and IMG tags (if
+* Have the students write their own P, DIV, SPAN, STRONG, EM, and IMG tags (if
   there's time)
 
 ### 11:00 (switch instructors)
