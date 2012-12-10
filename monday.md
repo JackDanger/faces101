@@ -23,19 +23,23 @@ Give a basic overview of HTML:
 
 ### 11:00 (switch instructors)
 
-Download http://squareup.com to a local file (save with all assets)
+Download http://squareup.com to a local file (save as "web page,
+complete" so it saves all assets)
 
-Open it in both the text editor and Chrome
+Open the HTML page in both the text editor and Chrome
+
+Teach the students how to find text in a file (CMD+F)
 
 Find the "&lt;div class='pricing-amount'&gt;2.75%&lt;/div&gt;" And practice editing
 it according to the following:
 
 * Edit the text to say something else
-* wrap the text in &lt;b&gt;&lt;/b&gt; tags, then &lt;i&gt;&lt;/i&gt; tags
-* add 2 new &lt;div&gt;text&lt;/div&gt; tags inside and see how they stack
-* try &lt;p&gt; tags
-* Insert an image tag where the src is the URL for the student's
+* wrap the text in &lt;strong&gt;&lt;/strong&gt; tags, then &lt;em&gt;&lt;/em&gt; tags
+* add 2 new &lt;div&gt;text&lt;/div&gt; tags inside and see how they stack (you might want to explain the _very_ basics of the box model
+* have them add multiple &lt;p&gt; tags with text in them
+* Insert an image tag where the SRC is the URL for the student's
   personal photo in the people directory (their own face)
+
 
 ### 11:40
 
