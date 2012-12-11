@@ -58,17 +58,10 @@
 })</pre>
        </div>
        <div class="span4" id="sixth_square">
-          <h2>Line things up</h2>
-          <span>These words are</span>
-          <span>in a row</span>
-          <span>but</span>
-          <span>if you</span>
-          <span>click this</span>
-          <span>this they'll</span>
-          <span>stack up</span>
-          <img src="http://www.sparkyhub.com/wp-content/uploads/2012/04/30-cute-puppies-you-will-want-to-take-home-with-you-2.jpg" style="display: none;" id="cute_puppies" />
+          <h2>Change an image 'src'</h2>
+          <img id="the_logo" src="http://mediaserver.pulse2.com/uploads/2009/12/square-logo.png" />
           <pre>$("#sixth_square").click(function(){
-  $("#sixth_square span").css("display", "block");
+  $("#the_logo").attr("src", "some_image.jpg");
 })
           </pre>
         </div>
@@ -77,8 +70,7 @@
 
     <script>
       $("#first_square").click(function(){
-        console.log('clicked')
-        $(this).fadeOut();
+        $("#first_square").fadeOut();
       })
 
       $("#second_square").click(function(){
@@ -98,7 +90,7 @@
       })
 
       $("#sixth_square").click(function(){
-        $("#sixth_square span").css("display", "block");
+        $("#the_logo").attr("src", "http://static.tumblr.com/6t3upxl/Aawm08w0l/khout-kitten-458882.jpeg");
       })
     </script>
   </body>

@@ -4,7 +4,7 @@
 
 Open by asking folks how the class is going. Anything need changing?
 
-Goals for today: Students won't understand the difference between a Function or a String but they
+Goals for today: Students may not understand the difference between a Function or a String but they
 will be able to edit a jQuery selector to point to the right DOM id.
 
 ### 10:10
@@ -55,8 +55,35 @@ Have students change the target to ".register-fg"
 Goal: Clicking the password field should trigger slideToggle (or some
 other effect) on the floating hand image.
 
-### 11:40
+### 11:30
+
+Have the students reopen <a href="http://jackdanger.github.com/faces101/2_jquery_demo.html">http://jackdanger.github.com/faces101/2\_jquery\_demo.html</a> and add
+their own CSS effects, using styles from the CSS demo if they get
+stuck.
 
 ### 12:00 (exercises begin, folks can leave at will)
 
 ### Exercise 1
+
+Swap the green square logo image on the jQuery demo page with another
+image from the internet (no need to download, just paste in the URL!)
+
+### Exercise 2
+
+Swap the kitty image with a different kitty image from the internet.
+
+### Exercise 3
+
+Make it so when you click the 1st section it runs 'slideUp' instead of
+'fadeOout'
+
+### Exercise 4
+
+Make it so when you click the 1st section it does all of the effects all
+at once, as if you'd clicked every section simultaneously (hint: copy
+and paste the javascript commands that are inside the function(){} blocks)
+
+### Exercise 5
+
+Make it so when you click anywhere on the page the entire page slides
+up. Hint: you'll want to use $("body").slideToggle()
