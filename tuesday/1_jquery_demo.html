@@ -4,7 +4,7 @@
     <title>Exercise 1</title>
     <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
     <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <script src="./1_jquery_demo_files/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
   </head>
 
   <body>
@@ -41,6 +41,38 @@
           </pre>
         </div>
       </div>
+
+      <div class="row">
+        <div class="span4" id="fourth_square">
+          <h2>Change text color</h2>
+          <p id="gray_text" style="color: gray;">When you click this the text will change from gray to dark black.</p>
+          <pre>$("#first_square").click(function(){
+  $("#gray_text").css("color", "black");
+})</pre>
+        </div>
+        <div class="span4" id="fifth_square">
+          <h2>Change font size</h2>
+          <p id="get_bigger">click here to make the text bigger!</p>
+          <pre>$("#fifth_square").click(function(){
+  $("#get_bigger").css("font-size", "1.5em");
+})</pre>
+       </div>
+       <div class="span4" id="sixth_square">
+          <h2>Line things up</h2>
+          <span>These words are</span>
+          <span>in a row</span>
+          <span>but</span>
+          <span>if you</span>
+          <span>click this</span>
+          <span>this they'll</span>
+          <span>stack up</span>
+          <img src="http://www.sparkyhub.com/wp-content/uploads/2012/04/30-cute-puppies-you-will-want-to-take-home-with-you-2.jpg" style="display: none;" id="cute_puppies" />
+          <pre>$("#sixth_square").click(function(){
+  $("#sixth_square span").css("display", "block");
+})
+          </pre>
+        </div>
+      </div>
     </div>
 
     <script>
@@ -57,6 +89,17 @@
         $("#cute_puppies").slideToggle();
       })
 
+      $("#fourth_square").click(function(){
+        $("#gray_text").css("color", "black");
+      })
+
+      $("#fifth_square").click(function(){
+        $("#get_bigger").css("font-size", "1.5em");
+      })
+
+      $("#sixth_square").click(function(){
+        $("#sixth_square span").css("display", "block");
+      })
     </script>
   </body>
 </html>
