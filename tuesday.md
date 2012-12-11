@@ -4,9 +4,8 @@
 
 Open by asking folks how the class is going. Anything need changing?
 
-Goals for today: edit other people's code, feel dangerous. Students
-won't understand the difference between a Function or a String but they
-will be able to edit a jQuery selector to point to the right DOM id.
+Goals for today: Understand basic CSS concepts, edit existing code, feel dangerous.
+Stretch goals: CSS selectors
 
 ### 10:10
 
@@ -16,28 +15,24 @@ and preview it in Chrome.
 Direct students to download the html file here:
 <pre>
 <a
-href="http://jackdanger.github.com/faces101/2_jquery_demo.html"
->http://jackdanger.github.com/faces101/2_jquery_demo.html</a>
+href="http://jackdanger.github.com/faces101/1_css_demo.html"
+>http://jackdanger.github.com/faces101/1_css_demo.html</a>
 </pre>
 
-Open it in Chrome and play with the effects. Ask students to see if they
-can figure out which parts of the page cause changes when clicked and
-which don't.
-
-Have them open the Web Inspector and take a closer look at the DOM near
-where the effects seem to be happening. Demonstrate the link between the
-DOM id and jQuery selector.
-
+Open it in Chrome and talk through the various effects.
+Have them open the Web Inspector and take a closer look at the the
+connection between DOM ids and styles.
 
 10:30
 
-Have the students edit the file to change the DOM ids of the elements
-and watch that the effects no longer happen. Then get them to update the
-jQuery selectors to use the new DOM ids.
-Goal: get the effects working the same as before but with brand new dom
-ids.
+Have the students edit the file to play with the various CSS styles.
+Have them make a div as ugly as possible by applying all 6 styles
+to one of the &lt;div&gt; tags.
 
-Likely problems: students will pick the same id for multiple elements.
+10:45
+
+Put the students in pairs and have them inline the styles. The result
+should be a that they can delete the STYLE tag and it still looks right.
 
 ### 11:00 (switch instructors)
 

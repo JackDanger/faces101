@@ -29,25 +29,26 @@ Primary concepts:
 
 ## Tuesday
 
-> Playing with jQuery events and seeing things move across the page
+> The DOM: classes and ids and inline styles
 
 Primary concepts:
 
-* Events that are triggered on user input
-* Targeting events to different page elements
 * basic intro to DOM ids and classes
+* inline styles
+* style tags
 
 <a href="tuesday.html">Full lesson</a>
 
 
 ## Wednesday
 
-> The DOM: classes and ids and inline styles
+> Playing with jQuery events and seeing things move across the page
 
 Primary concepts:
 
+* Events that are triggered on user input
+* Targeting events to different page elements
 * high-level explanation of Javascript
-* DOM ids and classes
 * Playing with targeting ids and classes with jQuery effects
 * Adding/removing styles from elements via jQuery triggers
 
